@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+
+
+<body>
+
+    <header>
+        <h1>Encriptador de texto</h1>
+        
+
+
+    </header>
+
+        <main>
+
+            <div class="entrada">
+               <textarea name="texto-entrada" id="entrada-texto" cols="60" rows="15" autocomplete="on" placeholder="Texto a encriptar"></textarea>
+
+            </div>
+
+            <div>
+
+                <button class="btn-encriptar" onclick="btn_encriptar()" >Encriptar</button>
+                <button id="btn-desencriptar" onclick="btn_desencriptar()" >Desencriptar</button>
+
+            </div>
+
+            <div class="campo-mensaje">
+                <textarea name="texto-salida" id="salida-texto" cols="60" rows="15" autocomplete="on"></textarea>
+                
+
+            </div>
+        
+        </main>
+
+        <footer>
+            <p class="pie">desarrollado por: Juan Pablo Romero Rodriguez</p>
+
+
+        </footer>
+
+        <script src="script.js"></script>   
+</body>
+</html>
